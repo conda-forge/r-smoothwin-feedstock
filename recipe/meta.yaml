@@ -1,4 +1,4 @@
-{% set version = '2.0.0' %}
+{% set version = "3.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SmoothWin_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SmoothWin/SmoothWin_{{ version }}.tar.gz
-  sha256: 458b779723acfd163c5ce2c4c716117ef34c13c042b1fd49df4f23e012cc75d6
+  sha256: c668284e087a59030bab0f61544d87a121b4ff5a8f13a172864367c201d6027f
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
