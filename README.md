@@ -1,13 +1,13 @@
 About r-smoothwin
 =================
 
-Home: http://hamedhaseli.webs.com
+Home: http://hamedhaseli.webs.com, https://www.mousephenotype.org/
 
-Package license: LGPL (>= 2)
+Package license: LGPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: The main function in the package utilizes a windowing function in the form of an exponential weighting function to linear models. The bandwidth and sharpness of the window are controlled by two parameters. Then, a series of tests are used to identify the right parameters of the window (see Charles Kervrann (2004) <doi:10.1007/978-3-540-24672-5_11>).
+Summary: The main function in the package utilizes a windowing function in the form of an exponential weighting function to linear models. The bandwidth and sharpness of the window are controlled by two parameters. Then, a series of tests are used to identify the right parameters of the window (see Hamed Haselimashhadi et al (2019) <https://www.biorxiv.org/content/10.1101/656678v1>).
 
 
 
@@ -116,11 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
