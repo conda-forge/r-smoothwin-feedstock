@@ -5,11 +5,9 @@ Home: http://hamedhaseli.webs.com, https://www.mousephenotype.org/
 
 Package license: LGPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smoothwin-feedstock/blob/master/LICENSE.txt)
 
 Summary: The main function in the package utilizes a windowing function in the form of an exponential weighting function to linear models. The bandwidth and sharpness of the window are controlled by two parameters. Then, a series of tests are used to identify the right parameters of the window (see Hamed Haselimashhadi et al (2019) <https://www.biorxiv.org/content/10.1101/656678v1>).
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-smoothwin` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-smoothwin` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
