@@ -1,11 +1,11 @@
-About r-smoothwin
-=================
+About r-smoothwin-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smoothwin-feedstock/blob/main/LICENSE.txt)
 
 Home: http://hamedhaseli.webs.com, https://www.mousephenotype.org/
 
 Package license: LGPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-smoothwin-feedstock/blob/main/LICENSE.txt)
 
 Summary: The main function in the package utilizes a windowing function in the form of an exponential weighting function to linear models. The bandwidth and sharpness of the window are controlled by two parameters. Then, a series of tests are used to identify the right parameters of the window (see Hamed Haselimashhadi et al (2019) <https://www.biorxiv.org/content/10.1101/656678v1>).
 
