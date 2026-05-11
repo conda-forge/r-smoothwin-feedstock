@@ -1,4 +1,4 @@
-{% set version = '3.0.0' %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SmoothWin_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SmoothWin/SmoothWin_{{ version }}.tar.gz
-  sha256: c668284e087a59030bab0f61544d87a121b4ff5a8f13a172864367c201d6027f
+  sha256: 4322e1a416f38f9bee55a661217af967d01578eed814d4a92630f104736bf502
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,10 +38,8 @@ test:
 about:
   home: http://hamedhaseli.webs.com, https://www.mousephenotype.org/
   license: LGPL-2
-  summary: The main function in the package utilizes a windowing function in the form of an exponential
-    weighting function to linear models. The bandwidth and sharpness of the window are
-    controlled by two parameters. Then, a series of tests are used to identify the right
-    parameters of the window (see Hamed Haselimashhadi et al (2019) <https://www.biorxiv.org/content/10.1101/656678v1>).
+  summary: The main function in the package utilizes a windowing function in the form of an exponential weighting function to linear models. The bandwidth and sharpness of the window are controlled by two parameters. Then, a series of tests are used to identify the right parameters of the window (see Hamed 
+    Haselimashhadi et al (2019) <https://www.biorxiv.org/content/10.1101/656678v1>).
   license_family: LGPL
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2'
